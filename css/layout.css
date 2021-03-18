@@ -1,0 +1,16 @@
+/**
+Nome: layout.css
+Função: Toda codificação responsável pela formatação do layout deve ser implementada aqui.
+*/
+
+*{margin:0; padding:0}
+body{font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+
+#form_container, #resultado{padding:10px;}
+
+#form_container fieldset{width:200px; padding:10px;}
+#form_container fieldset input{width:190px; padding:2px; border:1px solid #ccc; margin:2px 0}
+#form_container fieldset input:hover, #form_container fieldset input:focus{border:1px solid #000}
+
+.blue{color:#0066CC}
+.red{color:#FF0000}
